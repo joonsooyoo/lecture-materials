@@ -9,18 +9,22 @@ body {
   }
   
   .sidebar {
-    width: 200px;
+    
+    width: 300px;
     background-color: #f4f4f4;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   }
   
   .sidebar h3 {
-    font-size: 1.2em;
+    margin-left: 30px;
+    font-size: 1.5em;
     margin-bottom: 15px;
   }
   
   .sidebar a {
+    /* margin-left: 40px; */
+    font-size: 1.5em;
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
@@ -41,8 +45,10 @@ body {
   
   .main-content p {
     font-size: 1.1em;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 1.5em; /* or 20px, etc. */
+
   }
   
   .main-content h2 {
@@ -52,11 +58,12 @@ body {
  
 
   h1 {
-    color: #333;
+    font-size: 2.5em;
+    color: #4301f8;
   }
   
   table {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
   }
